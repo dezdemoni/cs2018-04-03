@@ -16,18 +16,5 @@ Scanner sc=new Scanner(System.in);
 
  */
 
-import java.util.Scanner;
-
 class TaskB1 {
-    public static void main(String args[]){
-        System.out.print("Возвести в квадрат число,это легко ");
-        Scanner scan = new Scanner(System.in);
-        int number = scan.nextInt();
-        System.out.println (number * number);
-        }
-
-
-    }
-
-
-
+}
