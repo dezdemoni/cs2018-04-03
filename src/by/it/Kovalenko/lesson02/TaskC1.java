@@ -21,9 +21,7 @@ class TaskC1 {
         System.out.println(number1 + "+" + number2 + "=" + k);
 
 
+
     }
-
-
-
 
 }
