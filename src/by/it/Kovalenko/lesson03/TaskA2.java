@@ -1,5 +1,7 @@
 package by.it.Kovalenko.lesson03;
 
+import java.util.Scanner;
+
 /*
 Lesson 03. Task A2. Стихотворение
 
@@ -21,5 +23,19 @@ Lesson 03. Task A2. Стихотворение
 Для автоматической проверки откройте и запустите класс Testing
 */
 class TaskA2 {
+    public static void main(String[] args) {
+        String a = "Мое любимое стихотворение";
+        String b = "Заметался пожар голубой";
+        String c = "Позабылись родимые дали";
+        String d = "В первый раз я запел про любовь!";
+        String f = "В первый раз отрекаюсь скандалить...";
+
+        System.out.println("Мое любимое стихотворение");
+        System.out.println("Заметался пожар голубой");
+        System.out.println("Позабылись родимые дали");
+        System.out.println("В первый раз я запел про любовь!");
+        System.out.println("В первый раз отрекаюсь скандалить...");
+
+    }
 
 }
