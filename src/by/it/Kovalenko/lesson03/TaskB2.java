@@ -56,7 +56,7 @@ class TaskB2 {
             System.out.println("Уравнение имеет единственный корень: x = " + x);
         }
         else {
-            System.out.println("Уравнение не имеет действительных корней!");
+            System.out.println("Отрицательный дискриминант");
         }
 
     }
