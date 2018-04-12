@@ -1,5 +1,10 @@
 package by.it.Kovalenko.lesson05;
 
+import jdk.nashorn.internal.runtime.arrays.ArrayIndex;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
 /*
 Создайте список строк.
 Вводите строки с клавиатуры, пока пользователь не введет слово END.
@@ -21,4 +26,15 @@ END
 */
 public class TaskA2 {
 
+    public static void main(String[] args) {
+        ArrayList<String> arr=new ArrayList<>();
+        Scanner scanner=new Scanner(System.in);
+        for(;;){
+            String str = scanner.next();
+            if (str.equals("END")) break;
+            arr.add(str);
+
+        }
+        System.out.println(arr);
+    }
 }
