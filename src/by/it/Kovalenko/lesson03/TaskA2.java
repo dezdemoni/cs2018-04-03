@@ -24,13 +24,13 @@ Lesson 03. Task A2. Стихотворение
 */
 class TaskA2 {
     public static void main(String[] args) {
-        String a = "Мое любимое стихотворение";
+        String a = "Мое любимое стихотворение:";
         String b = "Заметался пожар голубой";
         String c = "Позабылись родимые дали";
         String d = "В первый раз я запел про любовь!";
         String f = "В первый раз отрекаюсь скандалить...";
 
-        System.out.println("Мое любимое стихотворение");
+        System.out.println("Мое любимое стихотворение:");
         System.out.println("Заметался пожар голубой");
         System.out.println("Позабылись родимые дали");
         System.out.println("В первый раз я запел про любовь!");
